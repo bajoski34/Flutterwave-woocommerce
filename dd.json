@@ -1,0 +1,7 @@
+{
+    "@woocommerce/settings": "^1.0.0",
+    "@wordpress/hooks": "^3.2.0",
+    "@wordpress/html-entities": "^3.2.1",
+    "@wordpress/icons": "^5.0.2",
+    "@wordpress/plugins": "^4.0.2"
+}

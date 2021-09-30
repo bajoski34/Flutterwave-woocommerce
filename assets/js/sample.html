@@ -1,0 +1,195 @@
+<form method="post" id="mainform" action="" enctype="multipart/form-data">
+
+    <h1 class="screen-reader-text">Payments</h1><div class="notice notice-warning is-dismissible"><p><strong>Mailchimp for Woocommerce</strong> is not yet connected to a Mailchimp account. To complete the connection, <a href="http://localhost/wordpress/wp-admin/admin.php?page=mailchimp-woocommerce">visit the plugin settings page</a>.</p><button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss this notice.</span></button></div>
+    <ul class="subsubsub"><li><a href="http://localhost/wordpress/wp-admin/admin.php?page=wc-settings&amp;tab=checkout&amp;section=woocommerce_payments" class="">WooCommerce Payments</a> | </li><li><a href="http://localhost/wordpress/wp-admin/admin.php?page=wc-settings&amp;tab=checkout&amp;section=" class="">All payment methods</a>  </li></ul><br class="clear"><h2>Rave<small class="wc-admin-breadcrumb"><a href="http://localhost/wordpress/wp-admin/admin.php?page=wc-settings&amp;tab=checkout" aria-label="Return to payments">⤴</a></small></h2><p>Rave allows you to accept payment from cards and bank accounts in multiple currencies. You can also accept payment offline via USSD and POS.</p>
+<table class="form-table">		<tbody><tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_enabled">Enable/Disable <span class="woocommerce-help-tip"></span></label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Enable/Disable</span></legend>
+                <label for="woocommerce_rave_enabled">
+                <input class="" type="checkbox" name="woocommerce_rave_enabled" id="woocommerce_rave_enabled" style="" value="1" checked="checked"> Enable Rave Payment Gateway</label><br>
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_go_live">Mode <span class="woocommerce-help-tip"></span></label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Mode</span></legend>
+                <label for="woocommerce_rave_go_live">
+                <input class="" type="checkbox" name="woocommerce_rave_go_live" id="woocommerce_rave_go_live" style="" value="1"> Live mode</label><br>
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_logging_option">Disable Logging <span class="woocommerce-help-tip"></span></label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Disable Logging</span></legend>
+                <label for="woocommerce_rave_logging_option">
+                <input class="" type="checkbox" name="woocommerce_rave_logging_option" id="woocommerce_rave_logging_option" style="" value="1"> Disable Logging</label><br>
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_barter">Disable Barter <span class="woocommerce-help-tip"></span></label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Disable Barter</span></legend>
+                <label for="woocommerce_rave_barter">
+                <input class="" type="checkbox" name="woocommerce_rave_barter" id="woocommerce_rave_barter" style="" value="1"> Disable Barter</label><br>
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_webhook">Webhook Instruction </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Webhook Instruction</span></legend>
+                <input class="input-text regular-input " type="hidden" name="woocommerce_rave_webhook" id="woocommerce_rave_webhook" style="" value="" placeholder="">
+                <p class="description">Please copy this webhook URL and paste on the webhook section on your dashboard <strong style="color: red"></strong></p><pre style="position: relative;"><strong style="color: red"><code>http://localhost/wordpress/wc-api/Flw_WC_Payment_Webhook/</code></strong><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre> (<a href="https://rave.flutterwave.com/dashboard/settings/webhooks" target="_blank">Rave Account</a>)<p></p>
+            </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_secret_hash">Enter Secret Hash </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Enter Secret Hash</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_secret_hash" id="woocommerce_rave_secret_hash" style="" value="1234$#$flw" placeholder="">
+                <p class="description">Ensure that <b>SECRET HASH</b> is the same with the one on your Rave dashboard</p>
+            </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_title">Payment method title </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Payment method title</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_title" id="woocommerce_rave_title" style="" value="Flutterwave" placeholder="">
+                <p class="description">Optional</p>
+            </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_description">Payment method description </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Payment method description</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_description" id="woocommerce_rave_description" style="" value="Powered by Flutterwave: Accepts Mastercard, Visa, Verve, Discover, AMEX, Diners Club and Union Pay." placeholder="">
+                <p class="description">Optional</p>
+            </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_test_public_key">Rave Test Public Key </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Rave Test Public Key</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_test_public_key" id="woocommerce_rave_test_public_key" style="" value="FLWPUBK_TEST-647f6289f74aba024f10cc12f71bd6a2-X" placeholder="">
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_test_secret_key">Rave Test Secret Key </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Rave Test Secret Key</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_test_secret_key" id="woocommerce_rave_test_secret_key" style="" value="FLWSECK_TEST-1609ba49bee599841c9a590a97984685-X" placeholder="">
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_live_public_key">Rave Live Public Key </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Rave Live Public Key</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_live_public_key" id="woocommerce_rave_live_public_key" style="" value="" placeholder="">
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_live_secret_key">Rave Live Secret Key </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Rave Live Secret Key</span></legend>
+                <input class="input-text regular-input " type="text" name="woocommerce_rave_live_secret_key" id="woocommerce_rave_live_secret_key" style="" value="" placeholder="">
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_payment_style">Payment Style on checkout </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Payment Style on checkout</span></legend>
+                <select class="select " name="woocommerce_rave_payment_style" id="woocommerce_rave_payment_style" style="">
+                                                                                <option value="inline" selected="selected">Popup(Keep payment experience on the website)</option>
+                                                                                                            <option value="redirect">Redirect</option>
+                                                                    </select>
+                <p class="description">Optional - Choice of payment style to use. Either inline or redirect. (Default: inline)</p>
+            </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_autocomplete_order">Autocomplete Order After Payment <span class="woocommerce-help-tip"></span></label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Autocomplete Order After Payment</span></legend>
+                <label for="woocommerce_rave_autocomplete_order">
+                <input class="wc-flw-autocomplete-order" type="checkbox" name="woocommerce_rave_autocomplete_order" id="woocommerce_rave_autocomplete_order" style="" value="1"> Autocomplete Order</label><br>
+                                </fieldset>
+        </td>
+    </tr>
+            <tr valign="top">
+        <th scope="row" class="titledesc">
+            <label for="woocommerce_rave_payment_options">Payment Options </label>
+        </th>
+        <td class="forminp">
+            <fieldset>
+                <legend class="screen-reader-text"><span>Payment Options</span></legend>
+                <select class="select " name="woocommerce_rave_payment_options" id="woocommerce_rave_payment_options" style="">
+                                                                                <option value="" selected="selected">Default</option>
+                                                                                                            <option value="card">Card Only</option>
+                                                                                                            <option value="account">Account Only</option>
+                                                                                                            <option value="ussd">USSD Only</option>
+                                                                                                            <option value="qr">QR Only</option>
+                                                                                                            <option value="mpesa">Mpesa Only</option>
+                                                                                                            <option value="mobilemoneyghana">Ghana MM Only</option>
+                                                                    </select>
+                <p class="description">Optional - Choice of payment method to use. Card, Account etc.</p>
+            </fieldset>
+        </td>
+    </tr>
+    </tbody></table>		<p class="submit">
+                        <button name="save" class="button-primary woocommerce-save-button" type="submit" value="Save changes">Save changes</button>
+                    <input type="hidden" id="_wpnonce" name="_wpnonce" value="d930d26578"><input type="hidden" name="_wp_http_referer" value="/wordpress/wp-admin/admin.php?page=wc-settings&amp;tab=checkout&amp;section=rave">		</p>
+</form>
