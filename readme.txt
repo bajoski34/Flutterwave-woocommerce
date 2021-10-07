@@ -25,6 +25,8 @@ Flutterwave is available in:
 * __South Africa__
 * __Zambia__
 * __Sierra Leone__
+* __Mali__
+* __Cameroon__
 
 = Plugin Features =
 
