@@ -10,6 +10,7 @@ const Button = (props) => {
                     padding: "9px, 16px, 9px, 16px", 
                     fontSize: "12px",
                     borderRadius: "4px",
+                    border: "none",
                     width: "113px",
                     height: "32px" 
                 }}>{ name }</button>
