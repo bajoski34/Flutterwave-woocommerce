@@ -8,13 +8,13 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
-Accept Credit card, Debit card and Bank account payment directly on your store with the Flutterwave's Rave payment gateway for Wordpress Woo commerce.
+Accept Credit card, Debit card and Bank account payment directly on your store with the Flutterwave for Wordpress Woo commerce.
 
 == Description ==
 
-Accept Credit card, Debit card and Bank account payment directly on your store with the official Rave payment gateway for Woo commerce.
+Accept Credit card, Debit card and Bank account payment directly on your store with the official Flutterwavefor Woo commerce.
 
-Rave is available in:
+Flutterwave is available in:
 
 * __Nigeria__
 * __Ghana__
@@ -36,19 +36,12 @@ Rave is available in:
 Kindly read through the article [here](https://support.flutterwave.com/en/articles/3632754-how-to-integrate-flutterwave-into-woocommerce) for instructions 
 on how to install the plugin
 
-If you have suggestions or a new feature request, feel free to get in touch with us via [https://rave.flutterwave.com](https://rave.flutterwave.com)
+If you have suggestions or a new feature request, feel free to get in touch with us via [Email](mailto://developers@flutterwavego.com)
 
 You can also follow us on Twitter! **[@theflutterwave](https://twitter.com/theflutterwave)**
 
 
 == Installation ==
-=Requirements=
-Make sure you have the following plugins already installed
-*WooCommerce 
-*WooCommerce Shipping & Tax 
-*Facebook for WooCommerce 
-*Google Ads & Marketing by Kliken
-
 = Automatic Installation =
 *   Login to your WordPress Dashboard.
 *   Click on "Plugins > Add New" from the left menu.
@@ -74,9 +67,9 @@ For FTP manual installation, [check here](http://codex.wordpress.org/Managing_Pl
 = Configure the plugin =
 To configure the plugin, go to __WooCommerce > Settings__ from the left menu, click __Checkout__ tab. Click on __Flutterwave__.
 
-* __Enable/Disable__ - check the box to enable Rave Payment Gateway.
-* __Pay Button Public Key__ - Enter your public key which can be retrieved from the "Pay Buttons" page on your Rave account dashboard.
-* __Modal Title__ - (Optional) customize the title of the Pay Modal. Default is Rave.
+* __Enable/Disable__ - check the box to enable Flutterwave Payment Gateway.
+* __Pay Button Public Key__ - Enter your public key which can be retrieved from the "Pay Buttons" page on your Flutterwave account dashboard.
+* __Modal Title__ - (Optional) customize the title of the Pay Modal. Default is Flutterwave.
 * Click __Save Changes__ to save your changes.
 
 
@@ -85,7 +78,7 @@ To configure the plugin, go to __WooCommerce > Settings__ from the left menu, cl
 
 = What Do I Need To Use The Plugin =
 
-1. You need to open an account on [Rave](https://rave.flutterwave.com)
+1. You need to open an account on [Flutterwave](https://dashboard.flutterwave.com)
 
 
 
