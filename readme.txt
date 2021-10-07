@@ -1,9 +1,9 @@
-=== Rave Woocommerce Payment Gateway ===
-Contributors: theflutterwave
-Tags: rave,flutterwave, woocommerce, payments, nigeria, mastercard, visa, target,Naira,payments,verve,donation,church,shop,store, ghana, kenya, international, mastercard, visa
+=== Flutterwave ===
+Contributors: Fluttewave Developers
+Tags: flutterwave, woocommerce, payments, nigeria, mastercard, visa, target,Naira,payments,verve,donation,church,shop,store, ghana, kenya, international, mastercard, visa
 Requires at least: 3.1
 Tested up to: 5.7
-Stable tag: 2.2.5
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,13 +52,13 @@ Make sure you have the following plugins already installed
 = Automatic Installation =
 *   Login to your WordPress Dashboard.
 *   Click on "Plugins > Add New" from the left menu.
-*   In the search box type __Rave Woocommerce Payment Gateway__.
-*   Click on __Install Now__ on __Rave Woocommerce Payment Gateway__ to install the plugin on your site.
+*   In the search box type __Flutterwave__.
+*   Click on __Install Now__ on __Flutterwave__ to install the plugin on your site.
 *   Confirm the installation.
 *   Activate the plugin.
 *   Click on "WooCommerce > Settings" from the left menu and click the "Checkout" tab.
-*   Click on the __Rave__ link from the available Checkout Options
-*   Configure your __Rave Payment Gateway__ settings accordingly.
+*   Click on the __Flutterwave__ link from the available Checkout Options
+*   Configure your __Flutterwave__ settings accordingly.
 
 = Manual Installation =
 1.  Download the plugin zip file.
@@ -66,13 +66,13 @@ Make sure you have the following plugins already installed
 3.  Click on the "Upload" option, then click "Choose File" to select the zip file you downloaded. Click "OK" and "Install Now" to complete the installation.
 4.  Activate the plugin.
 5.  Click on "WooCommerce > Settings" from the left menu and click the "Checkout" tab.
-6.  Click on the __Rave__ link from the available Checkout Options
-7. Configure your __Rave Payment Gateway__ settings accordingly.
+6.  Click on the __FLutterwave__ link from the available Checkout Options
+7. Configure your __Flutterwave__ settings accordingly.
 
 For FTP manual installation, [check here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
 = Configure the plugin =
-To configure the plugin, go to __WooCommerce > Settings__ from the left menu, click __Checkout__ tab. Click on __Rave__.
+To configure the plugin, go to __WooCommerce > Settings__ from the left menu, click __Checkout__ tab. Click on __Flutterwave__.
 
 * __Enable/Disable__ - check the box to enable Rave Payment Gateway.
 * __Pay Button Public Key__ - Enter your public key which can be retrieved from the "Pay Buttons" page on your Rave account dashboard.
@@ -91,26 +91,6 @@ To configure the plugin, go to __WooCommerce > Settings__ from the left menu, cl
 
 
 == Changelog ==
-= 2.2.0 =
-* Use one base URL for live and test mode.
-
-* Merchants can get their [test and live](https://developer.flutterwave.com/docs/api-keys) keys [here](https://rave.flutterwave.com/dashboard/settings/apis)
-
-* Using test keys keeps you in test mode, to move to live mode add live keys.
-
-* Support for Woocommerce recurring, this allows merchants to collect recurring payments in woocommerce.
-
-= 2.1.0 =
-* Support for Woocommerce recurring, this allows merchants to collect recurring payments in woocommerce.
-
-= 2.0.0 =
-* Support for new currencies (ZMW, UGX, RWF, TZS, SLL).
-
-= 1.0.1 =
-*   Add redirect style with admin toogle for redirect or popup payment style 
-*   Custom gateway name 
-*   Bug fixes for country 
-
 = 1.0.0 =
 *   First release
 
